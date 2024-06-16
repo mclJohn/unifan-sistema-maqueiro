@@ -140,12 +140,12 @@ class SistemaTransporte:
 def main():
     sistema = SistemaTransporte()
 
-    # Adicionar maqueiro "Mateus"
+    # login para acessar
     sistema.adicionar_maqueiro(1, "mateus", "123")
 
     while True:
         try:
-            # Autenticar maqueiro
+            
             id_maqueiro = int(input("ID do maqueiro: "))
             nome_maqueiro = input("Nome do maqueiro: ")
             senha_maqueiro = input("Senha do maqueiro: ")
